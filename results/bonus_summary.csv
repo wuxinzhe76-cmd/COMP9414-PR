@@ -1,0 +1,4 @@
+Task,Metric,Finding
+"Split-direction alignment (Dry Bean, n=400)","Cosine=0.9925, Angle=7.0 deg",AGOPs select measurably different directions; high-residual samples pull toward alternative features
+"Perf. fixed_vector (Superconductivity, n=1500)",Test RMSE std=13.3792 vs res=13.3523 (Delta=+0.0269),Isolated single-direction comparison; see §6.1 for interpretation
+"Perf. subclass per-node (Dry Bean, n=500)",Test Acc std=0.7286 vs res=0.7224 (Delta=-0.0062),Per-node residual-weighted splits evaluated with local gradients
